@@ -1,0 +1,48 @@
+/* Nuevo estilo para el navbar */
+.custom-navbar {
+    background: linear-gradient(90deg, #1f2937, #4b5563); /* Degradado de colores oscuros */
+    border-bottom: 3px solid #e5e7eb; /* Borde en la parte inferior */
+}
+
+.custom-navbar .nav-link {
+    color: #f3f4f6 !important; /* Color claro para el texto */
+    font-weight: 500; /* Fuente seminegrita */
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .nav-link.active {
+    background-color: #f3f4f6;
+    color: #1f2937 !important;
+    border-radius: 5px;
+}
+
+.custom-navbar .nav-link:hover {
+    background-color: #e5e7eb;
+    color: #1f2937 !important;
+    border-radius: 5px;
+}
+
+/* Efecto hover para los íconos del usuario */
+.custom-navbar .nav-link i {
+    margin-right: 8px;
+}
+
+.custom-navbar .nav-link:hover i {
+    transform: scale(1.1); /* Efecto de zoom al icono */
+    transition: transform 0.2s ease;
+}
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 768px) {
+    .custom-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .custom-navbar .nav-link {
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+    }
+}

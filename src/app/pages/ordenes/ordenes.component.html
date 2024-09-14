@@ -1,0 +1,41 @@
+<body>
+    <header>
+        <div class="container">
+            <h1>Ingreso de Órdenes de Trabajo de Vehículos</h1>
+        </div>
+    </header>
+    <div class="container">
+        <form action="/submit_order" method="post">
+            <label for="orderNumber">Número de Orden:</label>
+            <input type="text" id="orderNumber" name="orderNumber" required>
+
+            <label for="vehicleMake">Marca del Vehículo:</label>
+            <input type="text" id="vehicleMake" name="vehicleMake" required>
+
+            <label for="vehicleModel">Modelo del Vehículo:</label>
+            <input type="text" id="vehicleModel" name="vehicleModel" required>
+
+            <label for="vehicleYear">Año del Vehículo:</label>
+            <input type="number" id="vehicleYear" name="vehicleYear" required>
+
+            <label for="customerName">Nombre del Cliente:</label>
+            <input type="text" id="customerName" name="customerName" required>
+
+            <label for="contactNumber">Número de Contacto:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required>
+
+            <label for="issueDescription">Descripción del Problema:</label>
+            <textarea id="issueDescription" name="issueDescription" rows="4" required></textarea>
+
+            <label for="serviceRequired">Servicio Requerido:</label>
+            <select id="serviceRequired" name="serviceRequired" required>
+                <option value="mantenimiento">Mantenimiento</option>
+                <option value="reparacion">Reparación</option>
+                <option value="diagnostico">Diagnóstico</option>
+                <option value="otros">Otros</option>
+            </select>
+
+            <button type="submit">Enviar Orden</button>
+        </form>
+    </div>
+</body>

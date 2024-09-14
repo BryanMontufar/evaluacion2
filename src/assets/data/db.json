@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "email": "bryan@mail.com",
+      "password": "$2a$10$MiGyiCR8ZDoaehINSb8b6Oxc3/SsfQ3RX5Yv.tf7jY7EJxFnc5CZu",
+      "id": 1
+    },
+    {
+      "email": "bryan2@mail.com",
+      "password": "$2a$10$iKk/.ZZ9JZVkG2wQ9ZUFn.OEw./QVUEi9Hd1eliE4d4Hzb8KCmyAy",
+      "id": 2
+    },
+    {
+      "email": "bryan3@mail.com",
+      "password": "$2a$10$FzQuk0jv2bgWgryKd0O5autmuf19V4RQl4nXllFWAprrTLqlc5DUK",
+      "id": 3
+    }
+  ]
+}
